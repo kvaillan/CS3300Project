@@ -12,6 +12,6 @@ deploy:
   api_key:
     secure: FFlAJIwqOKowVt43rPUXGUo4DrUcL7fk492ABKsH3cZxmFfcHhmFH7o6VpAE69i+1G2PP9sKbF9He9qbQ7PXK8tcclU/mDUu/C1sOVR8mGoVufbujQ8+DVJp1swHg9lkIQnmZ37NlSPhonxpPIVW4ZhumMUECg2bCvMZ6iIQhNx0VtZwsOqb9FB4n3XhBo4AjV6kg3uRYjupeKT6Z6gZUhqGR4cJAMjOkq3gXcroosM9YoURz0bXKa9z0Hbo49zuA2mQjsqlYpbtjm38ApyhlWMaQflKxdv1O214G+MyLdBWy+mSCbD3y8fkri36preQaqRnJuzqZyA2fJ/hBfUDVbCA+lG7Css1XoTiXf3x1DxuWCsNxmp52XLZK4/kyIMqEwTnZj/9gRtXyyGat07zmFXnGvuaDLSdW0Iq20Ui++vEHqmHcpYMPLjpfpYDR5W+VyxEeFy625FVob3KiSEbOnf0kNhYiO+pjmjPkPF8xdMD73jNDmSFkwXYN7air4veSqFUMBiqcwzeLEKumj/v9rclMXmacyE/DHaKVtGIjV2jcIt/h4apV/MsVctp/o5fOJuNKj5TjIg9nXxVQjR0sQDVaGylqienYKHGnwb4nfj0ecGPoZECQtUpR2Oyds0el/rEX5NJgh4WM7VJARxXmpLlb/QgvFyKVMq8PHnpbL0=
   app: CS3300Project
-  run: rake db:migrate
+  run: heroku rake db:migrate
   on:
     all_branches: true
