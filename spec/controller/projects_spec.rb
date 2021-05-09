@@ -1,5 +1,6 @@
 require "rails_helper"
 
+include Devise::Test::ControllerHelpers
 sign_in @user
 sign_in @user, scope: :admin
 
